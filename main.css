@@ -1,0 +1,85 @@
+body {
+    margin:0;
+    padding:0;
+    background:url(purple-gradient-blue-linear-1920x1080-c2-87cefa-da70d6-a-195-f-14.svg);
+    background-size: cover;
+    font-family: 'poppins',sans-serif;
+  }
+  .loginbox{
+       width:300px;
+       height:500px;
+       background:white;
+       color:black;
+       top:50%;
+       left:50%;
+       position:absolute;
+       transform: translate(-50%,-50%);  
+       box-sizing: border-box;
+       padding:40px;
+       border-radius: 10px;
+       
+  }
+  .loginbox h1{
+    margin:0;
+    padding-bottom: 0;
+    padding-top: -50%;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .loginbox p{
+    width:100%;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 0;
+    
+
+    
+  }
+  .loginbox input{
+    width:100%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .loginbox input[type="text"], input[type="password"]
+  {
+    border:none;
+    border-bottom: 1px solid gainsboro;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color:black;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .loginbox input[type="submit"]
+  {
+    border:none;
+    outline:none;
+    height:40px;
+    background:url(purple-gradient-blue-linear-1920x1080-c2-87cefa-da70d6-a-195-f-14.svg);
+    background-repeat: round;
+    font-size:18px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+   .loginbox input [type="submit"]:hover
+   {
+  background:white;
+   }
+  .loginbox a {
+    font-size: 12px;
+    padding-bottom: 20%;
+    text-align-last: center;
+  }
+  .loginbox img{
+    max-width: 30px;
+    vertical-align: inherit;
+  }
